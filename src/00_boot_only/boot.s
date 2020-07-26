@@ -1,4 +1,5 @@
-jmp	$
+entry:
+	jmp	$		;while (1);//ñ≥å¿ÉãÅ[Év
 
-times 510 - ($ - $$) db 0x00
-db 0x55, 0xAA
+	times 510 - ($ - $$) db 0x00
+	db 0x55, 0xAA
